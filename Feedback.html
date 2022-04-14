@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h3>Please give your feedback : </h3>
+  <form action="">
+    <p>
+      Enter your name :
+    </p>
+    <input type="text">
+    <p>Choose your gender : </p>
+    <div>
+      <input type="radio" id="Gender" name="Gender" value="Gender" unchecked>
+      <label for="Gender">Male</label>
+    </div>
+    <div>
+      <input type="radio" id="Gender" name="Gender" value="Gender" unchecked>
+      <label for="Gender">Female</label>
+    </div>
+    <div>
+      <input type="radio" id="Gender" name="Gender" value="Gender" unchecked>
+      <label for="Gender">Other</label>
+    </div>
+
+    <p>Choose laguages known : </p>
+    <div>
+      <input type="checkbox" id="English" name="English">
+      <label for="English">English</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Hindi" name="Hindi">
+      <label for="Hindi">Hindi</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Other" name="Other">
+      <label for="Other">Other</label>
+    </div>
+
+    <div>
+      <label for="start">Start date:</label>
+      <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+    </div>
+
+    <p>Reviews:</p>
+    <div>
+      <input type="range" id="How is the website?" name="How is the website?" min="0" max="100">
+      <label for="volume">liked it!</label>
+    </div>
+    <div>
+      <label for="Message">Enter your message to Author:</label>
+
+      <input type="text" id="Message" name="Message" required minlength="10" maxlength="100" size="20">
+    </div>
+
+    <div>
+      <input type="submit" name="Save">
+    </div>
+  </form>
+</body>
+
+</html>
